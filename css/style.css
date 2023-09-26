@@ -864,62 +864,101 @@ h1 h2 h3 h4 h5 h5 p {
 #foot .foot_wrapper {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  -moz-column-gap: 40px;
-       column-gap: 40px;
+  -moz-column-gap: 212px;
+       column-gap: 212px;
 }
-#foot .foot_wrapper .foot_contant h3 {
-  font-size: 24px;
-  font-weight: 600;
+#foot .foot_wrapper .foot_contant p {
+  width: 449px;
+  margin-top: 44px;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
   color: #29313D;
   text-transform: capitalize;
-  line-height: 140%;
-}
-#foot .foot_wrapper .foot_contant h5 {
-  width: 450px;
-  font-size: 20px;
-  font-weight: 600;
-  color: #29313D;
-  text-transform: capitalize;
-  line-height: 140%;
-  padding-top: 48px;
+  line-height: 150%;
 }
 #foot .foot_wrapper .foot_wrapper_two {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  -moz-column-gap: 199px;
-       column-gap: 199px;
+  justify-content: space-between;
+  -moz-column-gap: 160px;
+       column-gap: 160px;
 }
-#foot .foot_wrapper .foot_wrapper_two .foot_contant_two h3 {
-  width: 110px;
+#foot .foot_wrapper .foot_wrapper_two .foot_features .foot_heading {
   font-size: 24px;
   font-weight: 600;
+  font-family: "Open Sans", sans-serif;
   color: #29313D;
+  margin-bottom: 48px;
   text-transform: capitalize;
-  line-height: 140%;
+  line-height: 150%;
 }
-#foot .foot_wrapper .foot_wrapper_two .foot_contant_two h5 {
-  width: 210px;
+#foot .foot_wrapper .foot_wrapper_two .foot_features .foot_list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+#foot .foot_wrapper .foot_wrapper_two .foot_features .foot_list li a {
   font-size: 20px;
   font-weight: 600;
   color: #29313D;
+  cursor: pointer;
   text-transform: capitalize;
-  line-height: 140%;
-  padding-top: 48px;
+  line-height: 150%;
+}
+#foot .foot_wrapper .foot_wrapper_two .foot_products .foot_heading {
+  font-size: 24px;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+  color: #29313D;
+  margin-bottom: 48px;
+  text-transform: capitalize;
+  line-height: 150%;
+}
+#foot .foot_wrapper .foot_wrapper_two .foot_products .foot_list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+#foot .foot_wrapper .foot_wrapper_two .foot_products .foot_list li a {
+  font-size: 20px;
+  font-weight: 600;
+  color: #29313D;
+  cursor: pointer;
+  text-transform: capitalize;
+  line-height: 150%;
+}
+#foot .foot_wrapper .foot_wrapper_two .foot_support .foot_heading {
+  font-size: 24px;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+  color: #29313D;
+  margin-bottom: 48px;
+  text-transform: capitalize;
+  line-height: 150%;
+}
+#foot .foot_wrapper .foot_wrapper_two .foot_support .foot_list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+#foot .foot_wrapper .foot_wrapper_two .foot_support .foot_list li a {
+  font-size: 20px;
+  font-weight: 600;
+  color: #29313D;
+  cursor: pointer;
+  text-transform: capitalize;
+  line-height: 150%;
 }
 #foot .last_foot_wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-#foot .last_foot_wrapper .last_contant {
   margin-top: 80px;
 }
 #foot .last_foot_wrapper .last_contant a {
-  width: 312px;
   font-size: 18px;
   font-weight: 400px;
+  font-family: "Nunito", sans-serif;
   color: #29313D;
   text-transform: capitalize;
   line-height: 140%;
@@ -931,9 +970,6 @@ h1 h2 h3 h4 h5 h5 p {
   justify-content: right;
   -moz-column-gap: 60px;
        column-gap: 60px;
-}
-#foot .last_foot_wrapper .last_contant_wrapper .last_contant_two {
-  margin-top: 80px;
 }
 #foot .last_foot_wrapper .last_contant_wrapper .last_contant_two a {
   width: 200px;

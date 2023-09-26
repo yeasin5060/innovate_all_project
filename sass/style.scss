@@ -761,62 +761,108 @@ h1 h2 h3 h4 h5 h5 p{
     .foot_wrapper{
         display: flex;
         justify-content: space-between;
-        align-items: center;
-        column-gap:40px;
-        .foot_contant{ 
-            h3{
-                font-size: 24px;
-                font-weight: 600;
-                color: $maincolor;
-                text-transform: capitalize;
-                line-height: 140%;
-            }
-            h5{
-                width: 450px;
-                font-size: 20px;
-                font-weight: 600;
-                color: $maincolor;
-                text-transform: capitalize;
-                line-height: 140%;
-                padding-top: 48px;
+        column-gap:212px;
+        .foot_contant{
+            p{
+                width: 449px;
+                margin-top: 44px;
+                @include pera;
             }
         }
         .foot_wrapper_two{
             display: flex;
-            justify-content:center;
-            align-items: center;
-            column-gap: 199px;
-            .foot_contant_two{
-                h3{
-                    width: 110px;
+            justify-content: space-between;
+            column-gap: 160px;
+            .foot_features{
+                .foot_heading{
                     font-size: 24px;
                     font-weight: 600;
+                    font-family: 'Open Sans', sans-serif;
                     color: $maincolor;
+                    margin-bottom: 48px;
                     text-transform: capitalize;
-                    line-height: 140%;
+                    line-height: 150%;
                 }
-                h5{
-                    width:210px;
-                    font-size: 20px;
+                .foot_list{
+                    display: flex;
+                    flex-direction: column;
+                    row-gap: 30px;
+                    li{
+                        a{
+                            font-size: 20px;
+                            font-weight: 600;
+                            color: $maincolor;
+                            cursor: pointer;
+                            text-transform: capitalize;
+                            line-height: 150%;
+                        }
+                    }
+                }
+            }
+            .foot_products{
+                .foot_heading{
+                    font-size: 24px;
                     font-weight: 600;
+                    font-family: 'Open Sans', sans-serif;
                     color: $maincolor;
+                    margin-bottom: 48px;
                     text-transform: capitalize;
-                    line-height: 140%;
-                    padding-top: 48px;
+                    line-height: 150%;
+                }
+                .foot_list{
+                    display: flex;
+                    flex-direction: column;
+                    row-gap: 30px;
+                    li{
+                        a{
+                            font-size: 20px;
+                            font-weight: 600;
+                            color: $maincolor;
+                            cursor: pointer;
+                            text-transform: capitalize;
+                            line-height: 150%;
+                        }
+                    }
+                }
+            }
+            .foot_support{
+                .foot_heading{
+                    font-size: 24px;
+                    font-weight: 600;
+                    font-family: 'Open Sans', sans-serif;
+                    color: $maincolor;
+                    margin-bottom: 48px;
+                    text-transform: capitalize;
+                    line-height: 150%;
+                }
+                .foot_list{
+                    display: flex;
+                    flex-direction: column;
+                    row-gap: 30px;
+                    li{
+                        a{
+                            font-size: 20px;
+                            font-weight: 600;
+                            color: $maincolor;
+                            cursor: pointer;
+                            text-transform: capitalize;
+                            line-height: 150%;
+                        }
+                    }
                 }
             }
         }
-    }
+    }    
     .last_foot_wrapper{
         display: flex;
         justify-content: space-between;
         align-items: center;
+        margin-top: 80px;
         .last_contant{
-            margin-top: 80px;
             a{
-                width: 312px;
                 font-size: 18px;
                 font-weight: 400px;
+                font-family: 'Nunito', sans-serif;
                 color: $maincolor;
                 text-transform: capitalize;
                 line-height: 140%;
@@ -829,7 +875,6 @@ h1 h2 h3 h4 h5 h5 p{
             justify-content: right;
             column-gap: 60px;
             .last_contant_two{
-                margin-top: 80px;
                 a{
                 width: 200px;
                 font-size: 18px;
